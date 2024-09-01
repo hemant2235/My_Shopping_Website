@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    background-color: #ffffff;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #b6b1b1;
+}
+.logo-container{
+    margin-left: 2%;
+}
+.hshome{
+    height: 80px;
+}
+.actionbar{
+    margin-right: 4%;
+}
+.navbar{
+    display: flex;
+    min-width: 515px;
+    justify-content: space-evenly;
+}
+.navbar a{
+    font-size: 14px;
+    letter-spacing: .3px;
+    color: #282c3f;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 28px 0;
+    border-bottom: 5px solid #ffffff;
+}
+.navbar a:hover{
+    border-bottom: 4px solid brown;
+
+}
+.navbar a sup{
+    color: darkorange;
+    font-size: 10px;
+}
+
+.search{
+    color: #696e79;
+    background-color: #f5f5f6;
+    flex-grow: 1;
+    height: 40px;
+    border: 0;
+    border-radius: 0 4px 4px 0;
+
+}
+.searchbar{
+    height: 40px;
+    min-width: 200px;
+    display: flex;
+    width: 30%;
+    align-items: center;
+}
+.search_icon{
+    box-sizing: content-box;
+    height: 21px;   
+    padding: 10px;
+    background-color: #f5f5f6;
+    color: #282c3f;
+    font-weight: 300;
+    border-radius: 4px 0 0 4px;
+}
+
+.actionbar{
+    display: flex;
+    min-width: 200px;
+    justify-content: space-evenly;
+}
+.action-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* Main Sction */
+.banner-container{
+    margin: 40px 0;
+}
+.banner_image{
+    width: 100%;
+    height: auto;
+}
+.category-heading{
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin: 50px 0 10px 30px;
+    max-height: 5em;
+    font-weight: 700;
+}
+.category-item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.saleitem{
+    width: 250px;
+}
+
+.footer-container{
+    padding: 30px 0px 40px 0px;
+    background-color: #FAFBFC;
+    display: FLEX;
+    justify-content: space-evenly;
+}
+.fotter-coloumn{
+    display: flex;
+    flex-direction: column;
+}
+.fotter-coloumn h3{
+    color: #282c3f;
+    font-size: 14px;
+    margin-bottom: 25px;
+
+}
+.fotter-coloumn a{
+    color: #696b79;
+    display: block;
+    font-size: 15px;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+.copyright{
+    color: #94969f;
+    text-align: end;
+    padding: 15px;
+}
+.love{
+    text-transform: uppercase;
+    color:palevioletred;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin: 50px 0 10px 30px;
+    max-height: 5em;
+    font-weight: 700;
+    text-align: center;
+}
